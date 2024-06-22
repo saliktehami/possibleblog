@@ -35,17 +35,7 @@ export function ProfileCard() {
     setStyle({ transform: 'rotateX(0deg) rotateY(0deg)' })
   }, [])
 
-  useEffect(() => {
-    let { current } = ref
-    if (!current) return
-    current.addEventListener('mousemove', onMouseMove)
-    current.addEventListener('mouseleave', onMouseLeave)
-    return () => {
-      if (!current) return
-      current.removeEventListener('mousemove', onMouseMove)
-      current.removeEventListener('mouseleave', onMouseLeave)
-    }
-  }, [onMouseLeave, onMouseMove])
+  //
 
   return (
     <div
@@ -74,7 +64,6 @@ export function ProfileCard() {
           }}
           priority
         />
-        <SpotifyNowPlaying />
         <ProfileCardInfo />
         <span className="h-1.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
       </div>

@@ -20,10 +20,10 @@ export function Header({ navShow, onToggleNav }: { onToggleNav: () => void; navS
           <div className="flex items-center justify-between" data-umami-event="logo">
             <div className="mr-3 flex items-center justify-center">
               <NextImage
-                src="/static/images/Salik.png"
-                alt="Leo's Blog logo"
-                width={45}
-                height={45}
+                src="/static/images/Salik.svg"
+                alt="Salik Logo"
+                width={100}
+                height={100}
                 className="rounded-full"
               />
             </div>

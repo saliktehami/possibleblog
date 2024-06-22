@@ -1,17 +1,17 @@
 export let siteMetadata = {
   siteUrl: 'https://www.saliktehmi.com',
   siteRepo: 'https://github.com/saliktehami',
-  siteLogo: '/static/images/Salik.png',
-  image: '/static/images/Salik.png',
+  siteLogo: '/static/images/Salik.svg',
+  image: '/static/images/Salik.svg',
   socialBanner: '/static/images/logo.jpg',
   email: 'tehami.salik@gmail.com',
-  github: 'https://github.com/hta218',
-  x: 'https://x.com/hta218_',
-  facebook: 'https://facebook.com/hta218',
-  youtube: 'https://www.youtube.com/@hta218_',
-  linkedin: 'https://www.linkedin.com/in/hta218/',
+  github: 'https://github.com/saliktehami',
+  x: 'https://x.com/saliktehami',
+  facebook: 'https://facebook.com/',
+  youtube: 'https://www.youtube.com/',
+  linkedin: 'https://www.linkedin.com/in/saliktehami',
   locale: 'en-US',
-  analyticsURL: 'https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev',
+  analyticsURL: 'https://www.google.com',
   analytics: {
     plausibleDataDomain: '',
     simpleAnalytics: false, // true | false
@@ -19,9 +19,9 @@ export let siteMetadata = {
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
   socialAccounts: {
-    github: 'hta218',
-    linkedin: 'hta218',
-    x: 'hta218_',
+    github: 'saliktehami',
+    linkedin: 'saliktehami',
+    x: 'saliktehami',
   },
 }
 
