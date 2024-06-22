@@ -1,6 +1,6 @@
 export let siteMetadata = {
   siteUrl: 'https://www.saliktehmi.com',
-  //siteRepo: 'https://github.com/hta218/leohuynh.dev',
+  siteRepo: 'https://github.com/saliktehami',
   siteLogo: '/static/images/Salik.png',
   image: '/static/images/Salik.png',
   socialBanner: '/static/images/logo.jpg',
